@@ -45,7 +45,9 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Deploy the docker image to AWS ECR.
+
 #Create a Repositiry in ECR
+
 #Create a Role in IAM and Attach that to the EC2 Instance
 
 #Follow The push commands

@@ -26,6 +26,7 @@ touch app.py Dockerfile requirements.text
 pip install -r requirements.txt
 
 #Write code in [app.py](https://github.com/SMUSADDIQH/Assignmnet-DevOps/blob/master/app.py)
+
 8. Run the application
 python app.py
 

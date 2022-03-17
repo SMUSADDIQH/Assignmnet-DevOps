@@ -85,7 +85,7 @@ git push -u origin master
 #Create a workflow for CI/CD pipeline in GitHub
   
 1. Create The directories for workflow
-Assignmnet-DevOps/.github/workflow/CI.yaml
+Assignmnet-DevOps/.github/workflow/pyhton-linter.yaml
 
 
 
@@ -93,4 +93,4 @@ Assignmnet-DevOps/.github/workflow/CI.yaml
 #Setup a workflow which would [deploy the given ECR image](https://docs.github.com/en/actions/deployment/deploying-to-your-cloud-provider/deploying-to-amazon-elastic-container-service) to ECS on EC2 instance or Fargate.
   
 1. Create a workflow to deploy
-Assignmnet-DevOps/.github/workflow/CI.yaml
+Assignmnet-DevOps/.github/workflow/ECS.yaml

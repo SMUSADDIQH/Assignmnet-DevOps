@@ -29,7 +29,8 @@ pip install -r requirements.txt
 8. Run the application
 python app.py
 
-#Write Dockerfile
+#Write [Dockerfile](https://github.com/SMUSADDIQH/Assignmnet-DevOps/blob/master/Dockerfile)
+
 9. Build Docker Image
 docker build -t flask-python .
 

@@ -2,45 +2,45 @@
 
 #Dockerize a simple Hello World Flask Application
 
-1. Create a directory with a name "Flask-Docker"
+1. Create a directory with a name "Flask-Docker": 
     mkdir Flask-Docker-App
 
-2. Navigate to the newly created directory
+2. Navigate to the newly created directory: 
    cd Flask-Docker-App
 
 
-3. Create a virtual environment
+3. Create a virtual environment: 
    python3 -m venv venv
 
-4. Activate the environment
+4. Activate the environment: 
    source venv/bin/activate
 
-5. Install Flask
+5. Install Flask: 
    pip install Flask
 
-6. Create the required files
-   Create files; app.py, Dockerfile and requirements.text
+6. Create the required files: 
+   Create files; app.py, Dockerfile and requirements.text: 
    touch app.py Dockerfile requirements.text
 
-7. Install the requirements
+7. Install the requirements: 
    pip install -r requirements.txt
 
 #Write code in [app.py](https://github.com/SMUSADDIQH/Assignmnet-DevOps/blob/master/app.py)
 
-8. Run the application
+8. Run the application: 
    python app.py
 
 #Write [Dockerfile](https://github.com/SMUSADDIQH/Assignmnet-DevOps/blob/master/Dockerfile)
 
-9. Build Docker Image
+9. Build Docker Image: 
    docker build -t flask-python .
 
-10. Run the image as a container in detached mode mapping the port 5000:5000
+10. Run the image as a container in detached mode mapping the port 5000:5000: 
     docker run -d -p 5000:5000 python-docker
 
 #Obtain the output as Hello World!
 
-11. To see the containers running
+11. To see the containers running: 
     docker ps
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -71,22 +71,22 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Push the Repository to github
 
-1. Add the files to Stagging Area
+1. Add the files to Stagging Area: 
    git add .
 
-2. Commit the files to Local repo
+2. Commit the files to Local repo: 
    git commit -m "Devops assignment"
 
-3. Connect to GitHub
+3. Connect to GitHub: 
    git remote add origin <URL>
 
-4. Push to GitHub
+4. Push to GitHub: 
    git push -u origin master
   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Create a workflow for CI/CD pipeline in GitHub
   
-1. Create The directories for workflow
+1. Create The directories for workflow: 
    Assignmnet-DevOps/.github/workflow/pyhton-linter.yaml
 
 
@@ -94,5 +94,5 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Setup a workflow which would [deploy the given ECR image](https://docs.github.com/en/actions/deployment/deploying-to-your-cloud-provider/deploying-to-amazon-elastic-container-service) to ECS on EC2 instance or Fargate.
   
-1. Create a workflow to deploy
+1. Create a workflow to deploy: 
    Assignmnet-DevOps/.github/workflow/ECS.yaml

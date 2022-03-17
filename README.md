@@ -25,7 +25,7 @@ touch app.py Dockerfile requirements.text
 7 .Install the requirements
 pip install -r requirements.txt
 
-#Write code in app.py
+#Write code in [app.py](https://github.com/SMUSADDIQH/Assignmnet-DevOps/blob/master/app.py)
 8. Run the application
 python app.py
 
@@ -65,7 +65,7 @@ docker ps
 
    docker push public.ecr.aws/c3a8s7r4/docker-assignment:latest
 
-#After we push we can see the image deployed in ECR.
+#After we push we can see the [image deployed](https://gallery.ecr.aws/c3a8s7r4/docker-assignment) in ECR.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Push the Repository to github

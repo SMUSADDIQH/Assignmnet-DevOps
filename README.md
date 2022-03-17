@@ -1,6 +1,7 @@
 # Assignmnet-DevOps
 
 #Dockerize a simple Hello World Flask Application
+
 1. Create a directory with a name "Flask-Docker"
 mkdir Flask-Docker-App
 
@@ -19,7 +20,6 @@ pip install Flask
 
 6. Create the required files
 Create files; app.py, Dockerfile and requirements.text
-
 touch app.py Dockerfile requirements.text
 
 7 .Install the requirements

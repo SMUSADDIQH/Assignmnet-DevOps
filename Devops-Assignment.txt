@@ -1,0 +1,60 @@
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.4.26.zip" -o "awscliv2.zip"
+
+Problem Description
+
+
+Develop a simple CI/CD pipeline which builds a docker container and runs it on AWS ECS which is configured for autoscaling and load-balancing.
+
+
+Tasks:
+
+This is separated in 3 stages, try to complete at-least 2 before submitting.
+
+
+Stage 1: Dockerization
+
+Dockerize a simple Hello World Flask Application which responds with a message that is set up as an environment variable and deploy the docker image to AWS ECR.
+
+
+Stage 2: CI/CD Pipeline
+
+Develop a CI/CD pipeline(Github Actions/Jenkins or your own choice) which would lint the python code and push the updated image to ECR.
+
+
+Stage 3: Deployment to ECS
+
+Setup a workflow which would deploy the given ECR image to ECS on EC2 instance or Fargate.
+
+
+
+Submissions:
+
+Please create a Github repository with the application code, Dockerfile and the CI/CD workflows.
+
+Bonus:
+
+ECS could be configured for autoscaling and/or load-balancing.
+
+CI pipeline could check the code quality or are there any secrets in the code.
+
+
+Evaluation:
+
+Following points are take in account while evaluation of assignment is done:
+
+- Code available on github with README file.
+
+- Stage completion, try to complete at least 2 of them
+
+
+
+What If I Get Stuck Somewhere?
+
+
+We believe that one of the ways to grow is to teach others whatever you know. So if you need help or have any doubts, please feel free to email Shivam(shivam.beeyani@opslyft.com) and Suyash Joshi(suyash.joshi@opslyft.com).
+
+
+git tocken: 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
+
+
+AWS_ACCESS_KEY_ID: secret_access
